@@ -1,0 +1,16 @@
+1673972104500	geckodriver	INFO	Listening on 127.0.0.1:55750
+1673972107566	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55751" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\gerar\\AppData\\Local\\Temp\\rust_mozprofileisA6x0"
+1673972107795	Marionette	INFO	Marionette enabled
+1673972107799	Marionette	INFO	Listening on port 55763
+WebDriver BiDi listening on ws://127.0.0.1:55751
+Read port: 55763
+1673972107974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\gerar\\AppData\\Local\\Temp\\rust_mozprofileisA6x0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55751/devtools/browser/637ecf4e-9cce-4b09-bacb-c3219f83984f
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+1673972173907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31

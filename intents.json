@@ -1,0 +1,265 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "hola",
+                "buenos dias",
+                "buenas tardes"
+            ],
+            "responses": [
+                "Hola soy Chick-BOT \u263a el ayudante N\u00b01 de Productos MELO. \u00bfComo puedo ayudarte? \u2b50 \nPreguntame sobre mis usos!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "Chao",
+                "Adios",
+                "Hasta luego",
+                "Nos vemos pronto",
+                "Hasta la proxima"
+            ],
+            "responses": [
+                "Hasta luego! que tenga un buen dia \u2728",
+                "Chao. Muchas gracias por usar nuestros servicios! \u2728",
+                "Para servirle! \u2728"
+            ],
+            "context": []
+        },
+        {
+            "tag": "servicios",
+            "patterns": [
+                "Que puedes hacer?",
+                "Cuales son tus funciones",
+                "Me puedes ayudar",
+                "Dime tus servicios",
+                "Dime tus usos"
+            ],
+            "responses": [
+                "Puedo recomendarte servicios que entregamos a todos los productores del pais! Elije entre las siguientes opciones:\ue008\ue007\ue0081. Proteccion para cultivos \u2618\ue008\ue007\ue0082. Equipos y herramientas \u2692\ue008\ue007\ue0083. Salud animal \u271a \ue008\ue007\ue008\ue008\ue007\ue008Escriba su opcion *sin el n\u00famero* a continuacion \u27a1\ue008\ue007\ue008Recuerda que en todo momento puedes cambiar de opcion!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "salud",
+            "patterns": [
+                "Salud animal",
+                "Medicina",
+                "Animales",
+                "Farmacos"
+            ],
+            "responses": [
+                "Empresas Melo tiene como objetivo cuidar de sus animales y ganado \u2764\ue008\ue007\ue008Qu\u00e9 tipo de equipo farmaceutico necesita?\ue008\ue007\ue0081. Antibioticos\ue008\ue007\ue0082. Vacunas\ue008\ue007\ue0083. Vitaminas\ue008\ue007\ue0084. Higiene animal\ue008\ue007\ue0085. Antiinflamatorios\ue008\ue007\ue0086. Desparasitantes\ue008\ue007\ue008\ue008\ue007\ue008Escriba su opcion *sin el n\u00famero* a continuacion \u27a1"
+            ],
+            "context": []
+        },
+        {
+            "tag": "antibioticos",
+            "patterns": [
+                "Antibioticos",
+                "antibioticos"
+            ],
+            "responses": [
+                "Empresas MELO distribuye diversos tipos de antibioticos en todas sus sucursales \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/salud-animal/antibioticos\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "vacunas",
+            "patterns": [
+                "Vacunas",
+                "vacunas"
+            ],
+            "responses": [
+                "Empresas MELO distribuye diversas vacunas en todas sus sucursales \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/salud-animal/vacunas\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "vitaminas",
+            "patterns": [
+                "Vitaminas",
+                "vitaminas"
+            ],
+            "responses": [
+                "Empresas MELO distribuye diversas vitaminas en todas sus sucursales \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/salud-animal/vitaminas\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "higiene",
+            "patterns": [
+                "Higiene animal",
+                "higiene",
+                "limpieza"
+            ],
+            "responses": [
+                "Empresas MELO distribuye shampoos y equipos de limpieza en todas sus sucursales \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/salud-animal/higiene-animal\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "antiinflamatorios",
+            "patterns": [
+                "Antiinflamatorios",
+                "antinflamatorios"
+            ],
+            "responses": [
+                "Empresas MELO distribuye diversos inflamatorios en todas sus sucursales \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/salud-animal/antiinflamatorios\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "desparasitantes",
+            "patterns": [
+                "Desparasitantes",
+                "parasitos",
+                "Par\u00e1sitos"
+            ],
+            "responses": [
+                "Empresas MELO distribuye diversos desparasitantes en todas sus sucursales \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/salud-animal/desparasitantes\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "herramientas",
+            "patterns": [
+                "Equipos y herramientas",
+                "Equipos",
+                "Herramientas para construir"
+            ],
+            "responses": [
+                "Empresas MELO busca entregar equipos de calidad para el cuidado del sector agropecuario \u2692\ue008\ue007\ue008Qu\u00e9 tipo de equipo necesita?\ue008\ue007\ue0081. Comederos y bebederos\ue008\ue007\ue0082. Mallas y alambres\ue008\ue007\ue0083. Accesorios\ue008\ue007\ue008\ue008\ue007\ue008Escriba su opcion *sin el n\u00famero* a continuacion \u27a1\ue008\ue007\ue008Recuerda que en todo momento puedes cambiar de opcion!"
+            ],
+            "context": []
+        },
+        {
+            "tag": "comederos",
+            "patterns": [
+                "Comederos y bebederos",
+                "comederos",
+                "bebederos"
+            ],
+            "responses": [
+                "Nuestras sucursales le pueden entregar bebederos autom\u00e1ticos, dispensadores y comederos con diferentes equipos pr\u00e1cticos para que pueda integrarlos a su ganado sin inconvenientes \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/equipos-y-accesorios/comederos-y-bebederos\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "mallas",
+            "patterns": [
+                "Mallas y alambres",
+                "mallas",
+                "alambres",
+                "cercas",
+                "Cercar ganado"
+            ],
+            "responses": [
+                "Nuestras sucursales pueden proveer mallas de diferentes formas, alambres con o sin puas, adem\u00e1s de alambres de ciclon para que pueda mantener sus terrenos totalmente cercados! \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/equipos-y-accesorios/mallas-y-alambres\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "Accesorios",
+            "patterns": [
+                "Accesorios",
+                "Botas",
+                "Bozal",
+                "Machetes",
+                "Tanques",
+                "Montura",
+                "Guantes",
+                "Herraduras"
+            ],
+            "responses": [
+                "Nuestras sucursales tienen diversos equipos para su utilidad, vestimenta, herramientas, as\u00ed como arreos para monturas \u27a1\ue008\ue007\ue008Seleccione el siguiente enlace para conocer m\u00e1s! https://almacenesagropecuarios.com/equipos-y-accesorios/accesorios\ue008\ue007\ue008Esperamos serle de ayuda"
+            ],
+            "context": []
+        },
+        {
+            "tag": "proteccion cultivos",
+            "patterns": [
+                "Proteccion de cultivos",
+                "Mejorar cultivos",
+                "Cuidar cultivos"
+            ],
+            "responses": [
+                "Buscamos proveer el mejor servicio para el cuidado de sus cultivos y productos \u2705\ue008\ue007\ue008Cual tipo de cultivo buscar mejorar:\ue008\ue007\ue0081. Maiz\ue008\ue007\ue0082. Banano\ue008\ue007\ue0083. Arroz\ue008\ue007\ue008\ue008\ue007\ue008Escriba su opcion *sin el n\u00famero* a continuacion \u27a1"
+            ],
+            "context": []
+        },
+        {
+            "tag": "agradecimientos",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "mil gracias",
+                "muy amable",
+                "se lo agradezco",
+                "fue de ayuda",
+                "gracias por la ayuda",
+                "muy agradecido",
+                "gracias por su tiempo"
+            ],
+            "responses": [
+                "De nada! \u2764",
+                "Feliz por ayudarlo! \u2764",
+                "Gracias a usted! \u2764",
+                "Estamos para servirle! \u2764",
+                "Fue un placer! \u2764"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "maiz",
+            "patterns": [
+                "Maiz",
+                "maiz?"
+            ],
+            "responses": [
+                "Recomendamos cultivar con el abono Nutrex Siembra 12-24-12 para estimular la germinaci\u00f3n, la floraci\u00f3n y mejora la calidad de la planta del ma\u00edz \u2618"
+            ],
+            "context": []
+        },
+        {
+            "tag": "banano",
+            "patterns": [
+                "Banano",
+                "banano?"
+            ],
+            "responses": [
+                "Recomendamos cultivar con el abono Abono Urea 46% por ser un producto aporta nitr\u00f3geno ur\u00e9ico a los cultivos, con lo cual favorece el desarrollo del follaje y el vigor en los tallos mejorando la calidad de la planta del banano \u2618"
+            ],
+            "context": []
+        },
+        {
+            "tag": "arroz",
+            "patterns": [
+                "Arroz",
+                "arroz?"
+            ],
+            "responses": [
+                "Recomendamos cultivar con el abono Nutrex Produccion 19-9-19 por alto contenido en nitr\u00f3geno, y medio en f\u00f3sforo y potasio, es adecuado para cultivos sensibles, mejorando la calidad de la planta del arroz \u2618"
+            ],
+            "context": []
+        },
+        {
+            "tag": "norespuesta",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "No se detecto una respuesta \u2639"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
